@@ -1,0 +1,75 @@
+name: social_app
+description: "A new Flutter project for task Havebreak."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  animated_theme_switcher: ^2.0.10
+  bloc: ^8.1.4
+  connectivity_plus:
+  dio: ^5.4.3+1
+  easy_localization: ^3.0.7
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.5
+  flutter_screenutil: ^5.9.3
+  fluttertoast: ^8.2.8
+  freezed_annotation: ^2.4.1
+  get_it: ^7.7.0
+  go_router: ^14.1.4
+  json_annotation: ^4.9.0
+  multiple_result: ^5.1.0
+  pretty_dio_logger: ^1.3.1
+  retrofit: ^4.1.0
+  shared_preferences: ^2.2.3
+  flutter_svg: ^2.0.10+1
+  bloc_concurrency: ^0.2.5
+  package_info_plus: ^8.0.2
+  path_provider: ^2.1.4
+  objectbox: ^4.0.2
+  objectbox_flutter_libs: ^4.0.2
+  shimmer: ^3.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.11
+  freezed: 
+  json_serializable: ^6.8.0
+  retrofit_generator: ^8.1.0
+  objectbox_generator: ^4.0.2
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/lang/
+    - assets/jsons/
+  fonts:
+    - family: Glory
+      fonts:
+        - asset: assets/fonts/Glory-Regular.ttf
+        - asset: assets/fonts/Glory-ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/Glory-Light.ttf
+          weight: 200
+        - asset: assets/fonts/Glory-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Glory-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Glory-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Glory-ExtraBold.ttf
+          weight: 800
+      
