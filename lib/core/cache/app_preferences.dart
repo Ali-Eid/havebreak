@@ -69,20 +69,4 @@ class AppPreferences {
   setTheme({required ThemeData themeData}) {
     _sharedPreferences.setString(PREFS_KEY_THEME, themeData.getValue());
   }
-
-//--------------------------------------------------
-
-//-------------OnBoarding----------------------
-  Future<void> setShowOnBoarding(bool show) async {
-    await _sharedPreferences.setBool(PREFS_KEY_ON_BOARDING, show);
-  }
-
-  bool isShowOnBoarding() {
-    return _sharedPreferences.getBool(PREFS_KEY_ON_BOARDING) ?? false;
-  }
-
-//---------------------------------------------
-//-------------User info----------------------
-
-//---------------------------------------------
 }

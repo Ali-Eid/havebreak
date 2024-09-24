@@ -12,9 +12,6 @@ class ColorManager {
       Hex16Color.fromHex("#182A3E").withOpacity(0.3);
   static Color backgroundContainer = Hex16Color.fromHex("#F1F1F1");
   static Color tagTextColor = Hex16Color.fromHex("#7662B3");
-
-  //
-
   static Color red = Hex16Color.fromHex("#E84545");
   static Color green = Hex16Color.fromHex("#64BA02");
 
@@ -32,17 +29,6 @@ class ColorManager {
   static Color opaque = Hex16Color.fromHex("#C6C6C8");
   static Color nonOpaque = Hex16Color.fromHex("#EFEFEF");
   static Color background = Hex16Color.fromHex("#FCFCFC");
-
-  // labels
-  static Color labelSecondary = Hex16Color.fromHex("#8A8A8E");
-  static Color labelTertiary = Hex16Color.fromHex("#C5C5C7");
-  static Color labelQuarternary = Hex16Color.fromHex("#F8F8F8");
-
-  //Fills
-  static Color fillPrimary = Hex16Color.fromHex("#E4E4E6");
-  static Color fillSecondary = Hex16Color.fromHex("#E9E9EB");
-  static Color fillTertiary = Hex16Color.fromHex("#EFEFF0");
-  static Color fillQuarternary = Hex16Color.fromHex("#F4F4F5");
 }
 
 extension Hex16Color on Color {

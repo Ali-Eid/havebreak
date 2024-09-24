@@ -159,37 +159,6 @@ ThemeData lightTheme() {
           color: ColorManager.white,
           fontSize: AppSizeSp.s16),
       //----------
-      labelLarge: TextStyle(
-          fontFamily: FontConstants.glory,
-          fontWeight: FontWeight.bold,
-          color: ColorManager.primary,
-          fontSize: AppSizeSp.s36),
-      labelMedium: TextStyle(
-          fontFamily: FontConstants.glory,
-          fontWeight: FontWeight.bold,
-          color: ColorManager.primary,
-          fontSize: AppSizeSp.s24),
-      bodyLarge: TextStyle(
-          fontFamily: FontConstants.glory,
-          fontWeight: FontWeight.bold,
-          color: ColorManager.white,
-          fontSize: AppSizeSp.s24),
-
-      bodyMedium: TextStyle(
-          fontFamily: FontConstants.glory,
-          color: ColorManager.primary,
-          fontSize: AppSizeSp.s17),
-
-      titleLarge: TextStyle(
-          fontFamily: FontConstants.glory,
-          color: ColorManager.primary,
-          fontWeight: FontWeight.bold,
-          fontSize: AppSizeSp.s14),
-      displayLarge: TextStyle(
-          fontFamily: FontConstants.glory,
-          color: ColorManager.labelTertiary,
-          fontWeight: FontWeight.bold,
-          fontSize: AppSizeSp.s14),
     ),
 
     // fontFamily: FontConstants.fontFamilyPTSans,
