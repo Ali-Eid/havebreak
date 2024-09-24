@@ -55,6 +55,7 @@ flutter_launcher_icons:
   image_path: "assets/images/logoPng.png"
   adaptive_icon_background: "#05101C"
   adaptive_icon_foreground: "assets/images/logoPng.png"
+  adaptive_icon_foreground_inset: 30
   background_color_ios: "#05101C"
 
 flutter:
